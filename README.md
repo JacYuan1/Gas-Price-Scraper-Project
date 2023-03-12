@@ -61,7 +61,6 @@ Here are the list of Cities:
 - Windsor
 - Winnipeg
 ## References
-<a name="[1]">asdf</a>
 
 [1] https://www.writebots.com/discord-bot-token/
 
