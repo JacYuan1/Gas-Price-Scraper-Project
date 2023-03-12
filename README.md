@@ -2,10 +2,9 @@
 Scrapes gas prices off the internet and uploads it to a specific Discord channel.
 ## Table of Contents
 - [How to Use](##How-to-Use)
-- [Automation for the Script](#Automation for the Script)
-- [Example Output](#Example Output)
-- [Conclusion](#conclusion)
-- [List of Available Cities](#List of Available Cities)
+- [Automation for the Script](##Automation for the Script)
+- [Example Output](##Example Output)
+- [List of Available Cities](##List of Available Cities)
 - [References](#References)
 
 ## How to Use
