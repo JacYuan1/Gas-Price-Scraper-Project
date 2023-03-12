@@ -1,7 +1,6 @@
 # Gas Price Scraper & Upload to Discord
 
 ## Table of Contents
-
 - [Introduction](#Introduction)
 - [Installation Requirements](#Installation-Requirements)
 - [Automation for the Script](#Automation-for-the-Script)
