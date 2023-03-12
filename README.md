@@ -18,7 +18,7 @@ A note for the symbols that represent changes within the prices: ↑ denotes pri
 <h2 id="#Installation-Requirements">Installation Requirements</h2>
 Here are all the required links to install onto your machine before you run the code:
 
-- https://pip.pypa.io/en/stable/installation/#
+1) https://pip.pypa.io/en/stable/installation/#
 - https://pypi.org/project/beautifulsoup4/
 - https://pypi.org/project/requests/
 
