@@ -1,11 +1,11 @@
 ## Gas Price Scraper & Upload to Discord
 Scrapes gas prices off the internet and uploads it to a specific Discord channel.
 ## Table of Contents
-- [How to Use](##How-to-Use)
+- [How to Use](How-to-Use)
 - [Automation for the Script](##Automation for the Script)
 - [Example Output](##Example Output)
 - [List of Available Cities](##List of Available Cities)
-- [References](#References)
+- [References](References)
 
 ## How to Use
 You can add additional/remove cities on lines 14 - 18 (list of cities will be listed in the "Cities" section). If addtional cities are removed or added, go to line 56 and change that as well.
