@@ -9,7 +9,7 @@ Additionally, you must know your BOT_TOKEN and CHANNEL_ID for your discord serve
 To run this automatically, you can use Windows Task Scheduler. Check out [3] for a video guide on how to do that.
 ## Example Output
 
-Here is what the example output would look like:
+Here is what the example output would look like: ![My Image](images/git_image1.jpg)
 ## List of Available Cities
 
 Here are the list of Cities:
