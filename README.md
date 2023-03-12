@@ -1,4 +1,4 @@
-## Gas Price Scraper & Upload to Discord
+# Gas Price Scraper & Upload to Discord
 Scrapes gas prices off the internet and uploads it to a specific Discord channel.
 ## Table of Contents
 - [How to Use](##How to Use)
