@@ -11,8 +11,10 @@ Scrapes gas prices off the internet and uploads it to a specific Discord channel
 You can add additional/remove cities on lines 14 - 18 (list of cities will be listed in the "Cities" section). If addtional cities are removed or added, go to line 56 and change that as well.
 
 Additionally, you must know your BOT_TOKEN and CHANNEL_ID for your discord server and channel you want to upload (see reference [[1]](#References) and [[2]](#References) for finding those information).
+
 <h2 id="#Automation-for-the-Script">Automation for the Script</h2>
 To run this automatically, you can use Windows Task Scheduler. Check out [[3]](#References) for a video guide on how to do that.
+
  <h2 id="#Example-Output">Example Output</h2>
 
 Here is what the example output would look like:
