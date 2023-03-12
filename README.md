@@ -1,6 +1,7 @@
 # Gas Price Scraper & Upload to Discord
 
 ## Table of Contents
+
 - [Introduction](#Introduction)
 - [Installation Requirements](#Installation-Requirements)
 - [Automation for the Script](#Automation-for-the-Script)
@@ -16,6 +17,7 @@ The premise of this project is to scrape gas prices off of a targeted website an
 Additionally, you must know your BOT_TOKEN and CHANNEL_ID for your discord server and channel you want to upload (see reference [[1]](#References) and [[2]](#References) for finding those information).
 
 <h2 id="#Installation-Requirements">Installation Requirements</h2>
+
 Here are all the required links to install onto your machine before you run the code:
 
 1. https://pip.pypa.io/en/stable/installation/#
