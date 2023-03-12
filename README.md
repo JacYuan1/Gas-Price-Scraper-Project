@@ -7,7 +7,7 @@ Scrapes gas prices off the internet and uploads it to a specific Discord channel
 - [List of Available Cities](##List of Available Cities)
 - [References](#References)
 
-## How to Use
+<h2 id="section-1">Section 1</h2>
 You can add additional/remove cities on lines 14 - 18 (list of cities will be listed in the "Cities" section). If addtional cities are removed or added, go to line 56 and change that as well.
 
 Additionally, you must know your BOT_TOKEN and CHANNEL_ID for your discord server and channel you want to upload (see reference [1] and [2] for finding those information).
