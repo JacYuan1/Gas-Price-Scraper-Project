@@ -14,7 +14,7 @@
 
 The premise of this project is to scrape gas prices off of a targeted website and automatically upload the parsed information to a Discord channel of your choice. You can add additional/remove cities on **lines 14 - 18 of the code** (list of cities will be listed in the [List of Available Cities](#List-of-Available-Cities) section). If **addtional cities are removed or added, go to line 56 and change that as well in the code.**
 
-Additionally, you **must know your bot token and channel ID** for Discord if you want to upload (see reference [[1]](#References) and [[2]](#References) for finding those information and how to create a quick bot).
+Additionally, you **must know your bot token and channel ID** if you want to upload on Discord (see reference [[1]](#References) and [[2]](#References) for finding those information and how to create a quick bot).
 
 <h2 id="#Installation-Requirements">Installation Requirements</h2>
 
