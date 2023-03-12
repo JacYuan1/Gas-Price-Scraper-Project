@@ -14,7 +14,7 @@ Additionally, you must know your BOT_TOKEN and CHANNEL_ID for your discord serve
 
 <h2 id="#Automation-for-the-Script">Automation for the Script</h2>
 
-To run this automatically, you can use Windows Task Scheduler. see reference [[1]](#References) for a video guide on how to do that.
+To run this automatically, you can use Windows Task Scheduler. Check out [[3]](#References) for a video guide on how to do that.
 
  <h2 id="#Example-Output">Example Output</h2>
 
