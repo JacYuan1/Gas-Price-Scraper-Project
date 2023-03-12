@@ -8,9 +8,11 @@ Scrapes gas prices off the internet and uploads it to a specific Discord channel
 - [References](#References)
 
 <h2 id="#Introduction">Introduction</h2>
-You can add additional/remove cities on lines 14 - 18 (list of cities will be listed in the "Cities" section). If addtional cities are removed or added, go to line 56 and change that as well.
+The premise of this project is to scrape gas prices off of a targeted website and automatically upload the parsed information to a Discord channel of your choice. You can add additional/remove cities on lines 14 - 18 (list of cities will be listed in the "Cities" section). If addtional cities are removed or added, go to line 56 and change that as well.
 
 Additionally, you must know your BOT_TOKEN and CHANNEL_ID for your discord server and channel you want to upload (see reference [[1]](#References) and [[2]](#References) for finding those information).
+
+A note for the symbols that represent changes within the prices: ↑ denotes prices gone up for the listed date. ↓ denotes prices gone down for the listed date. n/c denotes "No Changes" for the listed date.
 
 <h2 id="#Automation-for-the-Script">Automation for the Script</h2>
 
