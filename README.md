@@ -1,4 +1,4 @@
-# Gas Price Scraper & Upload to Discord
+                                                              # Gas Price Scraper & Upload to Discord
 
 ## Table of Contents
 - [Introduction](#Introduction)
