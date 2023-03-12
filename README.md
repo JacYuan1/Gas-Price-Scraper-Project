@@ -5,6 +5,7 @@
 - [Installation Requirements](#Installation-Requirements)
 - [Automation for the Script](#Automation-for-the-Script)
 - [Example Output](#Example-Output)
+- [Symbol Legend](#Symbol-Legend)
 - [List of Available Cities](#List-of-Available-Cities)
 - [References](#References)
 
@@ -12,8 +13,6 @@
 The premise of this project is to scrape gas prices off of a targeted website and automatically upload the parsed information to a Discord channel of your choice. You can add additional/remove cities on lines 14 - 18 (list of cities will be listed in the "List of Available Cities" section). If addtional cities are removed or added, go to line 56 and change that as well.
 
 Additionally, you must know your BOT_TOKEN and CHANNEL_ID for your discord server and channel you want to upload (see reference [[1]](#References) and [[2]](#References) for finding those information).
-
-A note for the symbols that represent changes within the prices: ↑ denotes prices gone up for the listed date. ↓ denotes prices gone down for the listed date. n/c denotes "No Changes" for the listed date.
 
 <h2 id="#Installation-Requirements">Installation Requirements</h2>
 Here are all the required links to install onto your machine before you run the code:
@@ -31,6 +30,17 @@ To run this automatically, you can use Windows Task Scheduler. Check out [[3]](#
 Here is what the example output would look like:
 
 ![My Image](images/git_image1.jpg)
+
+<h2 id="#Symbol-Legend">Symbol Legend</h2>
+
+A note for the symbols that represent changes within the prices: 
+
+↑ denotes prices gone up for the listed date
+
+↓ denotes prices gone down for the listed date
+
+n/c denotes "No Changes" for the listed date
+
 <h2 id="#List-of-Available-Cities">List of Available Cities</h2>
 
 Here are the list of Cities:
