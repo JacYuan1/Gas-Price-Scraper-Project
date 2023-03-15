@@ -19,8 +19,8 @@ City3 = ""
 # Make a GET request to the URL and store the response content
 response = requests.get("https://gaswizard.ca/gas-price-predictions/")
 
-# Create a BeautifulSoup object from the response content, using the "html.parser" parser
-soup = BeautifulSoup(response.content, "html.parser")
+# uses the lxml parser to parse the extracted data
+soup = BeautifulSoup(response.content, "lxml")
 
 # Find all table rows with the "tr" tag and store them in the city_price_rows list
 city_price_rows = soup.find_all("tr")
