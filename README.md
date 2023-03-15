@@ -38,9 +38,9 @@ Here is what the example output would look like:
 
 A note for the symbols that represent changes within the prices: 
 
-↑ denotes prices gone up for the listed date
+⮝ denotes prices gone up for the listed date
 
-↓ denotes prices gone down for the listed date
+⮟ denotes prices gone down for the listed date
 
 n/c denotes "No Changes" for the listed date
 
