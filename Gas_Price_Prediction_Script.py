@@ -10,11 +10,11 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHANNEL_ID = os.environ.get("CHANNEL_ID")
 
 # Set the city names (These are the cities that you want to get the gas prices for and do not have to be capitalized, you can add more and you can also change the names to whatever you want. Please see the readme for more information.)
-City1 = "toronto"
+City1 = ""
 
-City2 = "mississauga"
+City2 = ""
 
-City3 = "oakville"
+City3 = ""
 
 # Make a GET request to the URL and store the response content
 response = requests.get("https://gaswizard.ca/gas-price-predictions/")
