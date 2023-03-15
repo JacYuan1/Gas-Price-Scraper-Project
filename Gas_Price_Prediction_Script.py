@@ -1,6 +1,5 @@
-# Import the requests, BeautifulSoup libraries, datetime library, and os library
+# Import the requests, BeautifulSoup and os libraries.
 import os
-from datetime import datetime
 from bs4 import BeautifulSoup
 import requests
 
@@ -11,14 +10,11 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHANNEL_ID = os.environ.get("CHANNEL_ID")
 
 # Set the city names (These are the cities that you want to get the gas prices for and do not have to be capitalized, you can add more and you can also change the names to whatever you want. Please see the readme for more information.)
-City1 = ""
+City1 = "toronto"
 
-City2 = ""
+City2 = "mississauga"
 
-City3 = ""
-
-# Set the date string using the current date in the format "Weekday, Month Day, Year"
-date_str = datetime.now().strftime("%A, %B %d, %Y")
+City3 = "oakville"
 
 # Make a GET request to the URL and store the response content
 response = requests.get("https://gaswizard.ca/gas-price-predictions/")
@@ -28,6 +24,12 @@ soup = BeautifulSoup(response.content, "html.parser")
 
 # Find all table rows with the "tr" tag and store them in the city_price_rows list
 city_price_rows = soup.find_all("tr")
+
+# Find the first "div" element with the "price-date" class
+title_found = soup.find("div", class_="price-date")
+
+# This is to check if the title is found without raising an error
+title_name_valid = title_found.getText() if title_found is not None else None
 
 # Initialize an empty list to store the parsed data (This also contains all the scraped data.)
 output = []
@@ -61,7 +63,7 @@ for item in output:
 headers = {"Authorization": f"Bot {BOT_TOKEN}"}
 
 # Create the file data
-data = {"content": f"Gas Prices for {date_str}\n" + "-----------------------------------------\n" + "\n".join(final_output)}
+data = {"content": f"Gas {title_name_valid}\n" + "--------------------------------------------------------\n" + "\n".join(final_output)}
 
 # Send the request to the Discord API
 response = requests.post(f"https://discord.com/api/v8/channels/{CHANNEL_ID}/messages", headers=headers, data=data)
