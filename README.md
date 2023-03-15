@@ -32,7 +32,7 @@ To run this automatically, you can use Windows Task Scheduler. Check out [[3]](#
 
 Here is what the example output would look like:
 
-![My Image](images/Screenshot 2023-03-15 181050.jpg)
+![My Image](images/git-image.jpg)
 
 <h2 id="#Symbol-Legend">Symbol Legend</h2>
 
