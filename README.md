@@ -20,9 +20,10 @@ Additionally, you **must know your bot token and channel ID** if you want to upl
 
 Here are all the required links to install onto your machine before you run the code:
 
-1. https://pip.pypa.io/en/stable/installation/#
+1. https://www.python.org/downloads/
 2. https://pypi.org/project/beautifulsoup4/
 3. https://pypi.org/project/requests/
+4. https://pip.pypa.io/en/stable/installation/#
 
 <h2 id="#Automation-for-the-Script">Automation for the Script</h2>
 
