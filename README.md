@@ -24,6 +24,7 @@ Here are all the required links to install onto your machine before you run the 
 2. https://pypi.org/project/beautifulsoup4/
 3. https://pypi.org/project/requests/
 4. https://pip.pypa.io/en/stable/installation/#
+5. https://lxml.de/installation.html
 
 <h2 id="#Automation-for-the-Script">Automation for the Script</h2>
 
